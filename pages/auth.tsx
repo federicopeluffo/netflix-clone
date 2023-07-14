@@ -30,7 +30,7 @@ const Auth = () => {
         callbackUrl: '/',
       })
 
-      router.push('/profiles')
+      router.push('/')
     } catch (error) {
       console.log(error)
     }
