@@ -52,8 +52,11 @@ const Auth = () => {
         </nav>
         <div className="flex justify-center">
           <div className="bg-black bg-opacity-70 px-16 py-16 self-center mt-2 lg:w-2/5 lg:max-w-md rounded-md w-full">
-            <h2 className="text-white text-4xl mb-8 font-semibold">
+            <h2 className="text-white text-4xl mb-4 font-semibold">
               {variant === 'login' ? 'Sign in' : 'Register'}
+            </h2>
+            <h2 className="text-white text-1xl mb-5 font-semibold">
+              ** This is not a real auth site
             </h2>
             <div className="flex flex-col gap-4">
               {variant === 'register' && (
